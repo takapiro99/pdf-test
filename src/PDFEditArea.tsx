@@ -5,7 +5,7 @@ export const PDFEditArea = () => {
   const viewer = useRef<HTMLDivElement>(null);
   useWebViewer({ viewer, pdfUrl: "/sample.pdf" });
   return (
-    <div style={{ width: "600px", height: "800px" }}>
+    <div style={{ width: "100%", height: "100%" }}>
       <div
         className="webviewer"
         ref={viewer}
